@@ -62,7 +62,7 @@ u32 HKPD_U8Calculator(u8 Copy_U8Calculate_Result){
 											Result=Prametars[i+1];
 											break ;
 										case '-':
-											Prametars[i+1]=(Prametars[i]*Prametars[i+1]);
+											Prametars[i+1]=(Prametars[i]-Prametars[i+1]);
 											Result=Prametars[i+1];
 											break ;
 										case '/':
